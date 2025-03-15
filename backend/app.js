@@ -20,7 +20,7 @@ mongoose
 
 //! Cors config
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+  origin: ["https://expense-tracker-frontend-beryl-theta.vercel.app"],
 };
 app.use(cors(corsOptions));
 
